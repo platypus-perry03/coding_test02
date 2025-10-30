@@ -1,5 +1,6 @@
 import 'package:flutter/fluter.dart';
 
-void main () {
+Text(
+  '안녕하세요',
   
-}
+)
