@@ -21,3 +21,5 @@ class GreetingPage extends StatefulWidget {
   @override
   State<GreetingPage> createState() => _GreetingPageState();
 }
+
+class _GreetingPageState extends State
