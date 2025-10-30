@@ -38,6 +38,7 @@ class _GreetingPageState extends State<GreetingPage> {
       appBar: AppBar(
         title: const Text('상태 변경 예제'),
         centerTitle: true,
+      ),
     ),
   }
   
