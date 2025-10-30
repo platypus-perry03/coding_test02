@@ -46,5 +46,10 @@ class _GreetingPageState extends State<GreetingPage> {
           style: const TextStyle(fontSize: 30),
         ),
       ),
-      floatingActionButton:
+      floatingActionButton: FloatingActionButton(
+        onPressed: changeMessage,
+        child: const Icon(Icons.refresh),
+      ),
+    );
+  }
 }
