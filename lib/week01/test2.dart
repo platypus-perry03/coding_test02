@@ -24,6 +24,4 @@ class GreetingPage extends StatefulWidget {
 
 class _GreetingPageState extends State<GreetingPage> {
   String message = '안녕하세요';
-  String message = '반갑습니다.';
-  
 }
