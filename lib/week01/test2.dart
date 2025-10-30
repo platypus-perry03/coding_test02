@@ -1,5 +1,4 @@
-import 'package:flutter/fluter.dart';
-import 'package:flutter/'
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,3 +15,9 @@ class MyApp extends StatelessWidget {
   }
 }
 
+class GreetingPage extends StatefulWidget {
+  const GreetingPage({super.key});
+
+  @override
+  State<GreetingPage> createState() => _GreetingPageState();
+}
