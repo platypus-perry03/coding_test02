@@ -33,6 +33,12 @@ class _GreetingPageState extends State<GreetingPage> {
   }
 
   @override
-  Widget build 
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('상태 변경 예제'),
+        centerTitle: true,
+    ),
+  }
   
 }
