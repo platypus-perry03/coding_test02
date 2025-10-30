@@ -24,11 +24,10 @@ class GreetingPage extends StatefulWidget {
 }
 
 class _GreetingPageState extends State<GreetingPage> {
-  String message = '안녕하세요'; // 초기 상태
+  String message = '안녕하세요';
 
   void changeMessage() {
     setState(() {
-      // 상태 변경
       message = (message == '안녕하세요') ? '반가워요' : '안녕하세요';
     });
   }
@@ -53,3 +52,4 @@ class _GreetingPageState extends State<GreetingPage> {
     );
   }
 }
+
